@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Photographe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; line-height: 1.6; background: #f9f9f9; color: #333; }
+    header { background: #000; color: #fff; padding: 2rem; text-align: center; }
+    nav { background: #222; padding: 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 4rem 2rem; max-width: 1000px; margin: auto; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .gallery img { width: 100%; height: auto; border-radius: 8px; }
+    footer { background: #000; color: #fff; text-align: center; padding: 2rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nom du Photographe</h1>
+    <p>Photographe spécialisé dans le sport mécanique</p>
+  </header>
+
+  <nav>
+    <a href="#presentation">Présentation</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="presentation">
+    <h2>Présentation</h2>
+    <p>Je suis photographe passionné de sport automobile et moto. Depuis plusieurs années, je couvre différents événements sur piste pour capturer l'intensité, la vitesse et l'émotion.</p>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie</h2>
+    <h3>Rallye</h3>
+    <div class="gallery">
+      <img src="photos/rallye1.jpg" alt="Rallye 1">
+      <img src="photos/rallye2.jpg" alt="Rallye 2">
+    </div>
+    <h3>Circuit</h3>
+    <div class="gallery">
+      <img src="photos/circuit1.jpg" alt="Circuit 1">
+      <img src="photos/circuit2.jpg" alt="Circuit 2">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Pour toute demande d'accréditation ou de collaboration :</p>
+    <p>Email : <a href="mailto:photographe@example.com">photographe@example.com</a></p>
+    <p>Instagram : <a href="https://instagram.com/tonprofil" target="_blank">@tonprofil</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ton Nom. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
